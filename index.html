@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .nav-link {
+        display: inline-flex;
+        font-size: 0.8em;
+        align-content: center;
+        margin: 5px;
+        border: 1px red solid;
+    }
+    
+    .nav-button {
+        align-self: center;
+        height: 3em;
+        margin: 5px;
+    }
+
+    #logo {
+        display: flex;        
+        justify-content: center;
+        height: 30vh;
+        border: 1px red solid;
+    }
+
+    #logo-img {
+        align-self: flex-end;
+    }
+
+    #searchBox {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        padding-top: 5%;
+        border: 1px red solid;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div id="nav-link-left">
+                <a class="nav-link" href="">About</a>
+                <a class="nav-link" href="">Store</a>
+            </div>
+            <div id="nav-link-right">
+                <a class="nav-link" href="">Images</a>
+                <a class="nav-link" href="">Gmail</a>
+                <button class="nav-button">Sign In</button>
+            </div>
+            </nav>
+    </header>
+    <div id="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo-img" alt="Google Logo" />
+    </div>
+    <div id="searchBox">
+        <form action="">
+            <input type="text" name="search" id="search">
+        </form>
+    </div>
+
+</body>
+</html>
