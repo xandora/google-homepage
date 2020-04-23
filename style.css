@@ -92,11 +92,29 @@
 
 .search-button {
     height: 3em;
-    line-height: 10px;
+    line-height: 3em;
     background-color: lightgrey;
     padding: 0px 20px 0px 20px;
     border: none;
     border-radius: 3px;
     margin: 0px 10px 0px 10px;
     font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    align-content: center;
+}
+
+#bottom-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
 }
