@@ -62,8 +62,17 @@
 
 #search-input {
     max-width: 90%;
-    width: 400px;
+    width: 500px;
     border: none;
+    padding: 0px 10px 0px 10px;
+}
+
+#search-mic, #search-loupe {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    justify-self: flex-end;
 }
 
 #search-buttons {
