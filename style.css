@@ -14,10 +14,10 @@
 }
 
 .nav-button {
-    height: 2em;
-    line-height: 10px;
+    height: 3em;
+    line-height: 3em;
     background-color: #4386f9;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
     border: none;
     border-radius: 2px;
     color:rgba(255, 255, 255, 1);
@@ -69,10 +69,18 @@
 
 #search-mic, #search-loupe {
     display: inline-flex;
-    width: 24px;
-    height: 24px;
     align-self: center;
     justify-self: flex-end;
+}
+
+#search-mic {
+    width: 24px;
+    height: 24px;
+}
+
+#search-loupe {
+    width: 16px;
+    height: 16px;
 }
 
 #search-buttons {
