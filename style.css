@@ -10,18 +10,25 @@
     font-size: 0.8em;
     align-content: center;
     margin: 5px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: Arial, sans-serif;
+    text-decoration-line: none;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration-line: underline;
 }
 
 .nav-button {
-    height: 3em;
-    line-height: 3em;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 0.8em;
     background-color: #4386f9;
     padding: 0px 10px 0px 10px;
     border: none;
     border-radius: 2px;
     color:rgba(255, 255, 255, 1);
-    font-family: 'Noto Sans', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .nav-button:hover {
@@ -91,14 +98,15 @@
 }
 
 .search-button {
-    height: 3em;
-    line-height: 3em;
+    height: 2.5em;
+    line-height: 2.5em;
     background-color: lightgrey;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 15px 0px 15px;
     border: none;
     border-radius: 3px;
     margin: 0px 10px 0px 10px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
 }
 
 footer {
@@ -114,7 +122,22 @@ footer {
 
 #bottom-bar {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    align-content: center;
     padding: 5px;
+    font-size: 1em;
+}
+
+#bottom-bar-left {
+display: flex;
+}
+
+#bottom-bar-middle {
+    display: flex;    
+}
+
+#bottom-bar-right {
+    display: flex;
 }
