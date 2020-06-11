@@ -5,12 +5,22 @@
     padding: 5px;
 }
 
+#nav-bar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
 .nav-link {
     display: inline-flex;
     font-size: 0.8em;
     align-content: center;
     margin: 5px;
     font-family: Arial, sans-serif;
+    text-decoration-line: none;
+    color: black;
+}
+
+a {
     text-decoration-line: none;
     color: black;
 }
@@ -130,8 +140,13 @@ footer {
     font-size: 1em;
 }
 
+#bottom-bar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
 #bottom-bar-left {
-display: flex;
+    display: flex;
 }
 
 #bottom-bar-middle {
